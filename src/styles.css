@@ -1,3 +1,26 @@
 html {
-  background: orange;
+  font-family: "Roboto";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+img#background {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  width: 100vw;
+  filter: blur(4px) brightness(0.6);
+  object-fit: cover;
+  transform: scale(1.04);
+  z-index: -1;
 }
