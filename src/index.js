@@ -1,4 +1,3 @@
-import Background from "./background.js";
 import Home from "./home.js";
 import Menu from "./menu.js";
 import About from "./about.js";
@@ -47,4 +46,3 @@ const nav = document.querySelector("nav");
 nav.addEventListener("click", switchPage);
 
 Home();
-Background();
