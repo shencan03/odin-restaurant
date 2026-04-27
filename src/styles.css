@@ -24,3 +24,20 @@ img#background {
   transform: scale(1.04);
   z-index: -1;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 7rem;
+}
+
+button {
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  color: #e3e3e3;
+}
